@@ -6,17 +6,6 @@
 (def render (renderer "slate/templates"))
 
 (defn slate
-  "Project with tools.namespace, profiles, and user.clj
-
-This template generates a project skeleton using tools.namespace and
-a :dev profile containing a dev.clj file. It is based on the blog
-article \"My Clojure Workflow, Reloaded\" at
-http://thinkrelevance.com/blog/2013/06/04/clojure-workflow-reloaded
-
-The only argument is a project name. The recommended form for a
-project name is groupId/artifactId where groupId is a reversed domain
-name that you own and artifactId is a descriptive name for the
-project. Names without a groupId are also accepted."
   [name]
   (let [[groupId artifactId] (str/split name #"/" 2)
         artifactId (or artifactId groupId)]
