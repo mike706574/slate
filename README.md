@@ -2,7 +2,7 @@
 
 My personal template for a Clojure application.
 
-Based on https://github.com/stuartsierra/reloaded
+Based on https://github.com/stuartsierra/reloaded.
 
 ## Copyright and License
 
