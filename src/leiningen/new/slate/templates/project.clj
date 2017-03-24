@@ -3,9 +3,9 @@
   :url "TODO"
   :license {:name "TODO: Choose a license"
             :url "http://choosealicense.com/"}
-  :dependencies [[org.clojure/clojure "1.9.0-alpha14"]
+  :dependencies [[org.clojure/clojure "1.9.0-alpha15"]
                  [com.taoensso/timbre "4.8.0"]
-                 [com.stuartsierra/component "0.3.1"]]
+                 [com.stuartsierra/component "0.3.2"]]
   :profiles {:uberjar {:aot :all
                        :main {{full-name}}.main}
              :dev {:source-paths ["dev"]

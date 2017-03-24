@@ -19,6 +19,7 @@
       (->files data
                [".gitignore" (render ".gitignore")]
                ["README.md" (render "README.md" data)]
+               ["epl-v10.html" (render "epl-v10.html" data)]
                ["project.clj" (render "project.clj" data)]
                ["src/{{path}}/main.clj" (render "main.clj" data)]
                ["src/{{path}}/system.clj" (render "system.clj" data)]
