@@ -2,12 +2,11 @@
 
 My personal template for a Clojure application.
 
-Based on https://github.com/stuartsierra/reloaded.
+Inspired by https://github.com/stuartsierra/reloaded.
 
 ## Copyright and License
 
-Copyright © 2013-2015 Stuart Sierra. All rights reserved. The use and
-distribution terms for this software are covered by the
+The use and distribution terms for this software are covered by the
 [Eclipse Public License 1.0] which can be found in the file
 epl-v10.html at the root of this distribution. By using this software
 in any fashion, you are agreeing to be bound by the terms of this
